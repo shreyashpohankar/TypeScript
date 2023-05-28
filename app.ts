@@ -18,6 +18,6 @@ const funct =() => {
 //const returnAdd: string =funct();
 //console.log('returnAdd',returnAdd)
 
-   const addFun =(a:number,b:string) => a+parseInt(b);
-   const addFunReturn = addFun(10,'2').toString();
+   const addFun =(a:number,b:number) => a+b;
+   const addFunReturn = addFun(10,2);
   console.log(addFunReturn)
