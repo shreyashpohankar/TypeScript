@@ -19,5 +19,5 @@ const funct =() => {
 //console.log('returnAdd',returnAdd)
 
    const addFun =(a:number,b:number) => a+b;
-   const addFunReturn = addFun(10,7);
+   const addFunReturn = addFun(10,10);
   console.log(addFunReturn)
